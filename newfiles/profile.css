@@ -1,0 +1,392 @@
+#dProfile {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("drive.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#sProfile {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("drive.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#aProfile {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("drive.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.imgcontainer {
+    margin-top: 5vh;
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+
+.imgcontainer .logo {
+    width: 600px;
+}
+
+.wrapper {
+    margin-top: 5vh;
+    max-width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue;  */
+}
+
+.form {
+    color: white;
+    margin-top: -70vh;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border-radius: 2%;
+     /* border: 2px solid red;  */
+}
+
+.form2 {
+    color: white;
+    top: 27%;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* border: 2px solid red;  */
+    
+}
+
+.form form {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green;  */
+
+}
+
+.textbox {
+    width: 100%;
+    font-size: 20px;
+    padding: 7px 0;
+    margin: 7px 0;
+    /* border-bottom: 1px solid rgb(82, 167, 223); */
+}
+.textbox2 {
+    width: 100%;
+    font-size: 20px;
+    padding: 0px 0;
+    margin: -2px 0;
+    /* border-bottom: 1px solid rgb(82, 167, 223); */
+}
+.textbox3 {
+    width: 100%;
+    font-size: 20px;
+    padding: 0px 0px;
+    margin: 0px 0;
+    /* border-bottom: 1px solid rgb(82, 167, 223); */
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.info-box {
+    display: block;
+    position: absolute;
+    top: 15%;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: .1vh 0;
+    font-family: 'Source Serif Pro', serif;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.add-box {
+    display: block;
+    position: absolute;
+    top: 65%;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: .1vh 0;
+    font-family: 'Source Serif Pro', serif;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.about-us-info {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    color: black;
+    font-size: 8px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: .1vh 0;
+    
+    font-family: 'Source Serif Pro', serif;
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+
+
+.title-box {
+    display: flex;
+    position: absolute;
+    top: 0;
+    color: black;
+    font-size: 10px;
+    margin-top: 50 px;
+    padding: .1vh 0; 
+    font-family: 'Source Serif Pro', serif;
+    border-bottom: 2px solid rgb(82, 167, 223);
+}
+.driver-list {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 15px;
+    padding: .1vh 0;
+    font-family: 'Source Serif Pro', serif;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+/* */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+  
+li {
+    float: right;
+}
+
+li a, .selectView {
+    /*float: left; */
+    text-align: center;
+    padding: 12px 16px; 
+}  
+
+.selectView2 {
+    /*float: left; */
+    text-align: left;
+    padding: 0px 3px; 
+}  
+
+li a, .dropbtn {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(82, 167, 223);
+}
+  
+li.dropdown {
+  display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* */
+
+.driver-name {
+    color: black;
+    width: 50%;
+    height: 15% ;
+    font-size: 8px;
+    margin-bottom: 15px; 
+    padding: .2vh .2vw ;
+    font-family: 'Source Serif Pro', serif;
+    border: 1px solid rgb(82, 167, 223); 
+    align-items: center;   
+    text-align: left;
+}
+
+.driver-add {
+    color: black;
+    width: 50%;
+    height: 15% ;
+    font-size: 8px;
+    margin-bottom: 15px; 
+    padding: .2vh .2vw ;
+    font-family: 'Source Serif Pro', serif;
+    /* border: 1px solid rgb(82, 167, 223);  */
+    align-items: center;   
+    text-align: left;
+}
+
+
+.sName {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+.sUsername {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+.sEmail {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+.sDrivers {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+.addPoints {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+.about-box {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+.addDrivers {
+    color: black;
+    font-size: 8px;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+ul2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+li2 {
+    float: left; 
+    display: flex;
+    flex-direction: column;  
+    font-size: 15px;
+    margin-right: 0%;  
+
+}
+
+li3 {
+    float: right; 
+    display: flex;
+    flex-direction: column;  
+    font-size: 15px; 
+    /* border-left: 1px solid rgb(82, 167, 223); */
+
+}
+li4 {
+    float: left; 
+    display: flex;
+    flex-direction: column;  
+    font-size: 15px; 
+    margin-left: 0%;  
+    /* border-left: 1px solid rgb(82, 167, 223); */
+    margin-left: 2%; 
+
+}
+
+li5 {
+    float: left; 
+    display: flex;
+    flex-direction: column;  
+    font-size: 15px; 
+    /* border-left: 1px solid rgb(82, 167, 223); */
+    margin-top: -1.5%;
+
+}
+
+li6 {
+    float: left; 
+    display: flex;
+    flex-direction: column; 
+    left: 0; 
+    font-size: 15px; 
+    /* border-left: 1px solid rgb(82, 167, 223); */
+    margin-left: 0%;
+
+}

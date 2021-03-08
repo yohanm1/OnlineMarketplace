@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Login</title>
+ 
+  <link rel="stylesheet" href="create1.css">
+  <link rel='icon' href='log.png' type='image/x-icon'/>
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="create1">
+  
+  <!--Page Content-->
+  <div class="container">
+
+    <div class = "imgcontainer">
+      <img src= "companylogo.png" alt="logo" class="logo" >
+    </div>
+  
+    <div class="wrapper">
+    
+  
+      <div class="form">
+  
+        <form>
+        <div class="info-box">
+            <h1>Create Account</h1>
+            <div class="textbox">
+              <div>ID#:</div>
+              <input class="test" type="text" id="idnumber" required>
+              <div>User Type:</div>
+              <select id="userType">
+                  <option value="driver">Driver</option>
+                  <option value="sponsor">Sponsor</option>
+                  <option value="admin">Admin</option>
+                </select>
+            </div>
+
+            <input class="btn" type="button" value="Submit" onclick="AcctCreate()">
+  
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+    function AcctCreate(){
+        var idVal = document.getElementById("idnumber").value;
+        var ut = document.getElementById("userType").value;
+
+        if(ut == "driver" && idVal == "0")
+        {
+          window.location = "dCreate.html";
+        }
+        else if(ut == "sponsor" && idVal == "0")
+        {
+          window.location = "sCreate.html";
+        }
+        else if(ut == "admin" && idVal == "0")
+        {
+          window.location = "aCreate.html";
+        }
+        else
+        {
+          alert("Account creation unsuccessful");
+        }
+    
+      }
+</script>
+  
+    <!--Footer-->
+    <div class="footer">
+  
+    </div>
+    <!--End of Footer-->
+  
+  
+  </body>
+  </html>
